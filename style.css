@@ -1,0 +1,67 @@
+body {
+font-family: 'Varela Round', sans-serif;
+}
+
+header {
+	min-height:300px;
+	padding: 100px 0;
+	color: #ffffff;
+	text-shadow: 1px 1px 0 #000000;
+}
+header h1 {
+	margin: 100px 0 10px;
+	font-family: 'Varela Round', sans-serif;
+}
+header a {
+	color: #000000;
+	text-shadow: none;
+}
+#margin {
+	margin-top:20px;
+}
+	
+#registration {
+	list-style-type: none;
+}
+
+#stadiums{
+	list-style-type: none;
+}
+
+.btn-custom {
+	background: #fc0;
+	color: #5E2500;
+	padding: 10px 20px;
+	box-shadow: 0 3px 0 #f93;
+	text-transform: uppercase;	
+}
+
+#description {
+	background: #F1F5F7;
+	padding: 100px 0;
+}
+
+footer {
+	padding: 25px 0;
+	background: #333333;
+	color: #ffffff;
+}
+
+.carousel-caption {
+	height:100%;
+	top: 33%;
+}
+#img {
+  filter: gray; 
+  -webkit-filter: grayscale(1);
+    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    margin-bottom:20px;
+}
+
+#img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+ 
+}
